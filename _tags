@@ -1,5 +1,5 @@
 # OASIS_START
-# DO NOT EDIT (digest: 97bd7ad2b19a06fe21e278083c5fe88d)
+# DO NOT EDIT (digest: 50510f1158c05b33d1dc03bdf03236d1)
 # Ignore VCS directories, you can use the same kind of rule outside
 # OASIS_START/STOP if you want to exclude directories that contains
 # useless stuff for the build process
@@ -18,10 +18,8 @@ true: annot, bin_annot
 "test.native": pkg_cstruct
 "test.native": pkg_io-page
 "test.native": pkg_io-page.unix
-"test.native": pkg_nocrypto
 <*.ml{,i,y}>: pkg_cstruct
 <*.ml{,i,y}>: pkg_io-page
 <*.ml{,i,y}>: pkg_io-page.unix
-<*.ml{,i,y}>: pkg_nocrypto
 "test.native": custom
 # OASIS_STOP

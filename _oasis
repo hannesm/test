@@ -13,4 +13,4 @@ Executable "test"
   CompiledObject  : native
   MainIs          : test.ml
   Custom          : true
-  BuildDepends    : io-page,nocrypto,cstruct,io-page.unix
+  BuildDepends    : io-page,cstruct,io-page.unix
