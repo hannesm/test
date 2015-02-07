@@ -1,0 +1,16 @@
+OASISFormat: 0.4
+Name:        test
+Plugins:     META (0.4), DevFiles (0.4)
+BuildTools:  ocamlbuild
+License: FreeBSD
+Authors:     Hannes
+Synopsis: bla
+Version: 0.1
+
+Executable "test"
+  Path            : .
+  Install         : false
+  CompiledObject  : native
+  MainIs          : test.ml
+  Custom          : true
+  BuildDepends    : io-page,nocrypto,cstruct,io-page.unix
